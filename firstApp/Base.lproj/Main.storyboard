@@ -175,6 +175,9 @@
                                 <state key="normal" title="Red">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="SetTextColor:" destination="sBO-K1-7OB" eventType="touchUpInside" id="Y1M-af-ATQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqi-B0-XX2">
                                 <rect key="frame" x="111" y="483" width="60" height="30"/>
@@ -186,6 +189,9 @@
                                 <state key="normal" title="Yellow">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="SetTextColor:" destination="sBO-K1-7OB" eventType="touchUpInside" id="ywh-iI-nMg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAu-kI-op6">
                                 <rect key="frame" x="299" y="483" width="60" height="30"/>
@@ -194,6 +200,9 @@
                                 <state key="normal" title="Blue">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="SetTextColor:" destination="sBO-K1-7OB" eventType="touchUpInside" id="xK8-RF-s5k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoI-X7-3es">
                                 <rect key="frame" x="205" y="483" width="60" height="30"/>
@@ -202,6 +211,9 @@
                                 <state key="normal" title="Green">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="SetTextColor:" destination="sBO-K1-7OB" eventType="touchUpInside" id="dlR-LM-IgN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fn-zI-jFS">
                                 <rect key="frame" x="16" y="563" width="168" height="30"/>
@@ -219,6 +231,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <action selector="SetTextOutline" destination="sBO-K1-7OB" eventType="touchUpInside" id="Fa9-FC-vhm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poi-ya-T5t">
                                 <rect key="frame" x="192" y="563" width="168" height="30"/>
@@ -226,16 +241,25 @@
                                 <state key="normal" title="Unoutline">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="SetTextUnoutline" destination="sBO-K1-7OB" eventType="touchUpInside" id="5jb-JE-VUb"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W1y-lg-x7p">
                                 <rect key="frame" x="16" y="74" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="_searchBar:" destination="sBO-K1-7OB" eventType="editingDidEnd" id="uk6-fj-JGa"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atb-dr-ySE">
                                 <rect key="frame" x="314" y="74" width="31" height="30"/>
                                 <state key="normal" title="搜尋"/>
+                                <connections>
+                                    <action selector="SearchText:" destination="sBO-K1-7OB" eventType="touchUpInside" id="PRX-cc-R5i"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -276,6 +300,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Attributor" id="RNN-E2-2Ef"/>
+                    <connections>
+                        <outlet property="_outlineButton" destination="5fn-zI-jFS" id="rFl-OH-N0h"/>
+                        <outlet property="_searchBar" destination="W1y-lg-x7p" id="7vG-fo-TG7"/>
+                        <outlet property="_textView" destination="jV2-2P-6cu" id="LhV-qb-jvJ"/>
+                        <outlet property="_unoutlineButton" destination="poi-ya-T5t" id="ue8-Za-08D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VMg-dp-ZIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

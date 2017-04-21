@@ -16,7 +16,6 @@ class AttributorViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
 		self._outlineButton.layer.cornerRadius = 5
 		self._unoutlineButton.layer.cornerRadius = 5
 		self._outlineButton.layer.borderWidth = 1

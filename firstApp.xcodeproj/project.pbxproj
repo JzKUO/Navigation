@@ -13,6 +13,8 @@
 		E874E0CB1EA9F47500AD211C /* firstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E874E0C91EA9F47500AD211C /* firstApp.xcdatamodeld */; };
 		E874E0CD1EA9F47500AD211C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E874E0CC1EA9F47500AD211C /* Assets.xcassets */; };
 		E874E0D01EA9F47500AD211C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E874E0CE1EA9F47500AD211C /* LaunchScreen.storyboard */; };
+		E874E0D81EAA1DFF00AD211C /* AttributorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0D71EAA1DFF00AD211C /* AttributorViewController.swift */; };
+		E874E0DA1EAA1ED500AD211C /* MemoryGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0D91EAA1ED500AD211C /* MemoryGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E874E0CC1EA9F47500AD211C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E874E0CF1EA9F47500AD211C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E874E0D11EA9F47500AD211C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E874E0D71EAA1DFF00AD211C /* AttributorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributorViewController.swift; sourceTree = "<group>"; };
+		E874E0D91EAA1ED500AD211C /* MemoryGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E874E0C21EA9F47500AD211C /* AppDelegate.swift */,
 				E874E0C41EA9F47500AD211C /* ViewController.swift */,
 				E874E0C61EA9F47500AD211C /* Main.storyboard */,
+				E874E0D91EAA1ED500AD211C /* MemoryGameViewController.swift */,
+				E874E0D71EAA1DFF00AD211C /* AttributorViewController.swift */,
 				E874E0CC1EA9F47500AD211C /* Assets.xcassets */,
 				E874E0CE1EA9F47500AD211C /* LaunchScreen.storyboard */,
 				E874E0D11EA9F47500AD211C /* Info.plist */,
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E874E0D81EAA1DFF00AD211C /* AttributorViewController.swift in Sources */,
 				E874E0C51EA9F47500AD211C /* ViewController.swift in Sources */,
 				E874E0C31EA9F47500AD211C /* AppDelegate.swift in Sources */,
 				E874E0CB1EA9F47500AD211C /* firstApp.xcdatamodeld in Sources */,
+				E874E0DA1EAA1ED500AD211C /* MemoryGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +311,7 @@
 				E874E0D61EA9F47500AD211C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

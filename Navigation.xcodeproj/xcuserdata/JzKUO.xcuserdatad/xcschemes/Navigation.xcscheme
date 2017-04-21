@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E874E0BE1EA9F47500AD211C"
                BuildableName = "firstApp.app"
                BlueprintName = "firstApp"
-               ReferencedContainer = "container:firstApp.xcodeproj">
+               ReferencedContainer = "container:Navigation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "E874E0BE1EA9F47500AD211C"
             BuildableName = "firstApp.app"
             BlueprintName = "firstApp"
-            ReferencedContainer = "container:firstApp.xcodeproj">
+            ReferencedContainer = "container:Navigation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "E874E0BE1EA9F47500AD211C"
             BuildableName = "firstApp.app"
             BlueprintName = "firstApp"
-            ReferencedContainer = "container:firstApp.xcodeproj">
+            ReferencedContainer = "container:Navigation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "E874E0BE1EA9F47500AD211C"
             BuildableName = "firstApp.app"
             BlueprintName = "firstApp"
-            ReferencedContainer = "container:firstApp.xcodeproj">
+            ReferencedContainer = "container:Navigation.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

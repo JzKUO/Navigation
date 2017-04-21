@@ -52,7 +52,7 @@
 		E874E0B61EA9F47500AD211C = {
 			isa = PBXGroup;
 			children = (
-				E874E0C11EA9F47500AD211C /* firstApp */,
+				E874E0C11EA9F47500AD211C /* Navigation */,
 				E874E0C01EA9F47500AD211C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E874E0C11EA9F47500AD211C /* firstApp */ = {
+		E874E0C11EA9F47500AD211C /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
 				E874E0C21EA9F47500AD211C /* AppDelegate.swift */,
@@ -79,7 +79,7 @@
 				E874E0D11EA9F47500AD211C /* Info.plist */,
 				E874E0C91EA9F47500AD211C /* firstApp.xcdatamodeld */,
 			);
-			path = firstApp;
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		E874E0DD1EAA341A00AD211C /* Modal */ = {
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E874E0BA1EA9F47500AD211C /* Build configuration list for PBXProject "firstApp" */;
+			buildConfigurationList = E874E0BA1EA9F47500AD211C /* Build configuration list for PBXProject "Navigation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -296,9 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = firstApp/Info.plist;
+				INFOPLIST_FILE = Navigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jzkuo.firstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzkuo.Navigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -308,9 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = firstApp/Info.plist;
+				INFOPLIST_FILE = Navigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jzkuo.firstApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzkuo.Navigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E874E0BA1EA9F47500AD211C /* Build configuration list for PBXProject "firstApp" */ = {
+		E874E0BA1EA9F47500AD211C /* Build configuration list for PBXProject "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E874E0D21EA9F47500AD211C /* Debug */,

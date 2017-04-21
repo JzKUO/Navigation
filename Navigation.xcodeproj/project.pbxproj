@@ -10,7 +10,7 @@
 		E874E0C31EA9F47500AD211C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0C21EA9F47500AD211C /* AppDelegate.swift */; };
 		E874E0C51EA9F47500AD211C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0C41EA9F47500AD211C /* ViewController.swift */; };
 		E874E0C81EA9F47500AD211C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E874E0C61EA9F47500AD211C /* Main.storyboard */; };
-		E874E0CB1EA9F47500AD211C /* firstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E874E0C91EA9F47500AD211C /* firstApp.xcdatamodeld */; };
+		E874E0CB1EA9F47500AD211C /* Navigation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E874E0C91EA9F47500AD211C /* Navigation.xcdatamodeld */; };
 		E874E0CD1EA9F47500AD211C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E874E0CC1EA9F47500AD211C /* Assets.xcassets */; };
 		E874E0D01EA9F47500AD211C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E874E0CE1EA9F47500AD211C /* LaunchScreen.storyboard */; };
 		E874E0D81EAA1DFF00AD211C /* AttributorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0D71EAA1DFF00AD211C /* AttributorViewController.swift */; };
@@ -19,6 +19,8 @@
 		E874E0E31EAA344800AD211C /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0DF1EAA344800AD211C /* Deck.swift */; };
 		E874E0E41EAA344800AD211C /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0E01EAA344800AD211C /* PlayingCardDeck.swift */; };
 		E874E0E51EAA344800AD211C /* CardMatchingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E874E0E11EAA344800AD211C /* CardMatchingGame.swift */; };
+		E8A3B0221EAA880A003CF7DA /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3B0211EAA880A003CF7DA /* ScoreViewController.swift */; };
+		E8A3B0241EAA88D5003CF7DA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3B0231EAA88D5003CF7DA /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +28,7 @@
 		E874E0C21EA9F47500AD211C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E874E0C41EA9F47500AD211C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E874E0C71EA9F47500AD211C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E874E0CA1EA9F47500AD211C /* firstApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = firstApp.xcdatamodel; sourceTree = "<group>"; };
+		E874E0CA1EA9F47500AD211C /* Navigation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation.xcdatamodel; sourceTree = "<group>"; };
 		E874E0CC1EA9F47500AD211C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E874E0CF1EA9F47500AD211C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E874E0D11EA9F47500AD211C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		E874E0DF1EAA344800AD211C /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		E874E0E01EAA344800AD211C /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 		E874E0E11EAA344800AD211C /* CardMatchingGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardMatchingGame.swift; sourceTree = "<group>"; };
+		E8A3B0211EAA880A003CF7DA /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		E8A3B0231EAA88D5003CF7DA /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +76,14 @@
 				E874E0C41EA9F47500AD211C /* ViewController.swift */,
 				E874E0C61EA9F47500AD211C /* Main.storyboard */,
 				E874E0D91EAA1ED500AD211C /* MemoryGameViewController.swift */,
+				E8A3B0211EAA880A003CF7DA /* ScoreViewController.swift */,
 				E874E0D71EAA1DFF00AD211C /* AttributorViewController.swift */,
+				E8A3B0231EAA88D5003CF7DA /* DetailsViewController.swift */,
 				E874E0DD1EAA341A00AD211C /* Modal */,
 				E874E0CC1EA9F47500AD211C /* Assets.xcassets */,
 				E874E0CE1EA9F47500AD211C /* LaunchScreen.storyboard */,
 				E874E0D11EA9F47500AD211C /* Info.plist */,
-				E874E0C91EA9F47500AD211C /* firstApp.xcdatamodeld */,
+				E874E0C91EA9F47500AD211C /* Navigation.xcdatamodeld */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -168,11 +174,13 @@
 				E874E0E51EAA344800AD211C /* CardMatchingGame.swift in Sources */,
 				E874E0E31EAA344800AD211C /* Deck.swift in Sources */,
 				E874E0D81EAA1DFF00AD211C /* AttributorViewController.swift in Sources */,
+				E8A3B0241EAA88D5003CF7DA /* DetailsViewController.swift in Sources */,
 				E874E0E21EAA344800AD211C /* Card.swift in Sources */,
 				E874E0C51EA9F47500AD211C /* ViewController.swift in Sources */,
 				E874E0C31EA9F47500AD211C /* AppDelegate.swift in Sources */,
 				E874E0E41EAA344800AD211C /* PlayingCardDeck.swift in Sources */,
-				E874E0CB1EA9F47500AD211C /* firstApp.xcdatamodeld in Sources */,
+				E8A3B0221EAA880A003CF7DA /* ScoreViewController.swift in Sources */,
+				E874E0CB1EA9F47500AD211C /* Navigation.xcdatamodeld in Sources */,
 				E874E0DA1EAA1ED500AD211C /* MemoryGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,13 +348,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E874E0C91EA9F47500AD211C /* firstApp.xcdatamodeld */ = {
+		E874E0C91EA9F47500AD211C /* Navigation.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E874E0CA1EA9F47500AD211C /* firstApp.xcdatamodel */,
+				E874E0CA1EA9F47500AD211C /* Navigation.xcdatamodel */,
 			);
-			currentVersion = E874E0CA1EA9F47500AD211C /* firstApp.xcdatamodel */;
-			path = firstApp.xcdatamodeld;
+			currentVersion = E874E0CA1EA9F47500AD211C /* Navigation.xcdatamodel */;
+			path = Navigation.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

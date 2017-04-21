@@ -131,5 +131,13 @@ class MemoryGameViewController: UIViewController {
 		self._game.ResetGame()
 		self.InitAll()
 	}
+
+	// 將 data 傳到另一個頁面
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		if segue.identifier == "push" {
+			(segue.destination as! ScoreViewController).SetScore(self._scoreLabel.text!)
+			(segue.destination as! ScoreViewController).SetTime(self.secondTime.text!)
+		}
+	}
 }
 

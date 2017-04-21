@@ -77,7 +77,7 @@ class Card: UIButton {
 
 		// 位置
 		let cardPositionX: Double = Double(x) * cardWdith + Double(x) * gutterX + gutterX * 0.5
-		let cardPositionY: Double = Double(y) * cardHeight + Double(y) * gutterY + 20
+		let cardPositionY: Double = Double(y) * cardHeight + Double(y) * gutterY + 70
 
 		// 指定 UIButton 外框
 		self.frame = CGRect(x: cardPositionX,
